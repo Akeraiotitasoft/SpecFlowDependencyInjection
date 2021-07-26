@@ -348,3 +348,9 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# help xml files (ignore)
+Akeraiotitasoft.*.xml
+
+# Sandcastle Help File Builder creates files in a Help directory
+Help/

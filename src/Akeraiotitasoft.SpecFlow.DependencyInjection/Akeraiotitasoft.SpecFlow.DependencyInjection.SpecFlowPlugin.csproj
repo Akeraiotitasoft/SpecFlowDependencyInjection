@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Robert Kolski</Authors>
+    <Company>Akeraiotitasoft LLC</Company>
+    <Description>The dependency injection specflow plugin that actually works.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>(c) 2021 Akeraiotitasoft LLC</Copyright>
+    <RepositoryUrl>https://github.com/Akeraiotitasoft/SpecFlowDependencyInjection</RepositoryUrl>
+    <PackageIcon>akeraiotitasoft.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageReleaseNotes>First Release</PackageReleaseNotes>
+    <PackageTags>specflow dependeny inejction di</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>.\Akeraiotitasoft.SpecFlow.DependencyInjection.SpecFlowPlugin.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+    <PackageReference Include="SpecFlow" Version="3.9.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\akeraiotitasoft.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

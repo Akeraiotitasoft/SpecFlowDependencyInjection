@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akeraiotitasoft.SpecFlow.DependencyInjection.SpecFlowPlugin", "src\Akeraiotitasoft.SpecFlow.DependencyInjection\Akeraiotitasoft.SpecFlow.DependencyInjection.SpecFlowPlugin.csproj", "{DD9780E5-A3F9-48A0-82CC-1EB5D97D3D00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA5F4614-4B90-40E8-A686-FCC9B10D9423}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		akeraiotitasoft.png = akeraiotitasoft.png
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD9780E5-A3F9-48A0-82CC-1EB5D97D3D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9780E5-A3F9-48A0-82CC-1EB5D97D3D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9780E5-A3F9-48A0-82CC-1EB5D97D3D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9780E5-A3F9-48A0-82CC-1EB5D97D3D00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9934748C-EB11-4202-B532-D5559491CA42}
+	EndGlobalSection
+EndGlobal
